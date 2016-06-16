@@ -6,6 +6,10 @@ var Weather = require('Weather');
 var About = require('About');
 var Examples = require('Examples');
 
+// Load foundation
+require('style!css!foundation-sites/dist/foundation.min.css')
+$(document).foundation();
+
 
 // var Route = require('react-router').Route; <--- same as above except above uses object destructuring syntax from es6
 //if the path is /about then it'll render About
