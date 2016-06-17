@@ -15,13 +15,13 @@ $(document).foundation();
 //if the path is /about then it'll render About
 //however if the path is just / it'll render Weather
 ReactDOM.render(
-	<Router history={hashHistory}>
-		<Route path="/" component={Main}>
-			<Route path="about" component={About}/> 
-			<Route path="examples" component={Examples}/> 
-			<IndexRoute component={Weather}/>
-		</Route>
-	</Router>,
-	document.getElementById('app')
+  <Router history={hashHistory}>
+    <Route path="/" component={Main}>
+      <Route path="about" component={About}/>
+      <Route path="examples" component={Examples}/>
+      <IndexRoute component={Weather}/>
+    </Route>
+  </Router>,
+  document.getElementById('app')
 );
 
