@@ -10,6 +10,9 @@ var Examples = require('Examples');
 require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
+// App css
+require('style!css!applicationStyles')
+
 
 // var Route = require('react-router').Route; <--- same as above except above uses object destructuring syntax from es6
 //if the path is /about then it'll render About
